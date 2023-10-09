@@ -1,0 +1,7 @@
+http://localhost:8080/engine-rest/process-definition
+
+http://localhost:8080/engine-rest/deployment/1eb4b0ee-6209-11ee-a122-0242fd8de9aa/resources
+
+http://localhost:8080/engine-rest/deployment/registered
+
+http://localhost:8080/engine-rest/deployment

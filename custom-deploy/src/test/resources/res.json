@@ -1,0 +1,42 @@
+[
+  {
+    "links": [],
+    "id": "1eb4b0ee-6209-11ee-a122-0242fd8de9aa",
+    "name": "my_first_diagram",
+    "source": "Camunda Modeler",
+    "deploymentTime": "2023-10-03T19:23:00.439+0300",
+    "tenantId": null
+  },
+  {
+    "links": [],
+    "id": "958059ff-6201-11ee-a122-0242fd8de9aa",
+    "name": "SpringAutoDeployment",
+    "source": null,
+    "deploymentTime": "2023-10-03T18:29:03.763+0300",
+    "tenantId": null
+  },
+  {
+    "links": [],
+    "id": "eb08757c-6206-11ee-a122-0242fd8de9aa",
+    "name": "my_first_diagram",
+    "source": "Camunda Modeler",
+    "deploymentTime": "2023-10-03T19:07:14.756+0300",
+    "tenantId": null
+  }
+]
+
+
+[
+  "eb08757c-6206-11ee-a122-0242fd8de9aa",
+  "958059ff-6201-11ee-a122-0242fd8de9aa",
+  "1eb4b0ee-6209-11ee-a122-0242fd8de9aa"
+]
+
+
+[
+  {
+    "id": "1eb4b0ef-6209-11ee-a122-0242fd8de9aa",
+    "name": "my_first_diagram.bpmn",
+    "deploymentId": "1eb4b0ee-6209-11ee-a122-0242fd8de9aa"
+  }
+]

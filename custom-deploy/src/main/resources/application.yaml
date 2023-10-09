@@ -1,0 +1,32 @@
+spring.datasource.url: jdbc:h2:file:./camunda-h2-database
+
+camunda.bpm.admin-user:
+  id: admin
+  password: admin
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      output-bindings: sendProcessDefinitionRegistrationEvent
+      function:
+        autodetect: false
+        definition: receiveProcessDefinitionRegistrationEvent
+      bindings:
+        sendProcessDefinitionRegistrationEvent-out-0:
+          destination: camunda-topicExchange
+        receiveProcessDefinitionRegistrationEvent-in-0:
+          destination: camunda-topicExchange
+          group: processDefinitionRegistrationEvent
+      rabbit:
+        bindings:
+          sendProcessDefinitionRegistrationEvent-out-0:
+            producer:
+              routingKeyExpression: '''processDefinitionRegistrationEventRoutingKey'''
+          receiveProcessDefinitionRegistrationEvent-in-0:
+            consumer:
+              bindingRoutingKey: processDefinitionRegistrationEventRoutingKey

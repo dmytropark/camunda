@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Process_1jh0zak:1:eb0bf7ee-6206-11ee-a122-0242fd8de9aa",
+    "key": "Process_1jh0zak",
+    "category": "http://bpmn.io/schema/bpmn",
+    "description": null,
+    "name": null,
+    "version": 1,
+    "resource": "my_first_diagram.bpmn",
+    "deploymentId": "eb08757c-6206-11ee-a122-0242fd8de9aa",
+    "diagram": null,
+    "suspended": false,
+    "tenantId": null,
+    "versionTag": null,
+    "historyTimeToLive": 180,
+    "startableInTasklist": true
+  },
+  {
+    "id": "dimas-process-id:1:1eb74900-6209-11ee-a122-0242fd8de9aa",
+    "key": "dimas-process-id",
+    "category": "http://bpmn.io/schema/bpmn",
+    "description": null,
+    "name": "dimas-process-name",
+    "version": 1,
+    "resource": "my_first_diagram.bpmn",
+    "deploymentId": "1eb4b0ee-6209-11ee-a122-0242fd8de9aa",
+    "diagram": null,
+    "suspended": false,
+    "tenantId": null,
+    "versionTag": null,
+    "historyTimeToLive": 180,
+    "startableInTasklist": true
+  },
+  {
+    "id": "my-project-process:1:9591bf21-6201-11ee-a122-0242fd8de9aa",
+    "key": "my-project-process",
+    "category": "http://bpmn.io/schema/bpmn",
+    "description": null,
+    "name": null,
+    "version": 1,
+    "resource": "/home/dima/flightright/gitlab/camunda/my-project/target/classes/process.bpmn",
+    "deploymentId": "958059ff-6201-11ee-a122-0242fd8de9aa",
+    "diagram": null,
+    "suspended": false,
+    "tenantId": null,
+    "versionTag": null,
+    "historyTimeToLive": null,
+    "startableInTasklist": true
+  }
+]
